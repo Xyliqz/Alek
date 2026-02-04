@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alek</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      background: #fff9cc;
+      color: #111;
+    }
+    header {
+      background: #ff6666;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 5px dashed #333;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px #000;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #ffffaa;
+      border: 3px dotted #ff0000;
+      padding: 20px;
+      border-radius: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: rotate(5deg) scale(1.05);
+    }
+    .images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .images img {
+      width: 100%;
+      border-radius: 20px;
+      border: 4px solid #ff00ff;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #333;
+      color: #ffcc00;
+      font-size: 1.2rem;
+    }
+    button {
+      background: #ff00ff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: transform 0.2s;
+    }
+    button:hover {
+      transform: scale(1.1) rotate(-5deg);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Портфолио за Алек - Иконом</h1>
+  <p>Най-добрият иконом в България</p>
+</header>
+
+<section>
+  <h2>За мен</h2>
+  <p>Аз съм иконом – правя всичко, което никой друг не иска</p>
+</section>
+
+<section>
+  <h2>Умения</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Доставка на закуски и напитки</h3>
+      <p>Доставка на закуски и напитки – „Обещавам да донеса кафе, вода и храна…</p>
+    </div>
+    <div class="card">
+      <h3>Организатор</h3>
+      <p>Организация на малки задачи – „Премествам столове, чистя бюрото и събирам случайни предмети</p>
+    </div>
+    <div class="card">
+      <h3>Знам всичко</h3>
+      <p>Зная къде е всичко и как да го сложа на правилното място…</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Фото доказателства</h2>
+  <div class="images">
+    <img src="Alek1.png" alt="Графики, които никой не разбира" />
+    <img src="Alek2.png" alt="Аз се правя на важен" />
+    <img src="Alek3.png" alt="Финансови мистерии" />
+  </div>
+</section>
+
+
+
+<footer>
+  © 2026 <span>Алек Иконом</span> – Направено от Xyliqz
+</footer>
+
+</body>
+</html>
